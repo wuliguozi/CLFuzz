@@ -1,6 +1,6 @@
 #include "executor.h"
 #include "tests.h"
-#include "mutatorpool.h"
+#include "recyclepool.h"
 #include "config.h"
 #include <cryptofuzz/util.h>
 #include <fuzzing/memory.hpp>

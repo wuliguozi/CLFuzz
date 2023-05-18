@@ -10,8 +10,8 @@ Introduction of some files and directories
 - `entry.cpp`: the fuzzing entry
 - `driver.cpp`: driver for invoking targeted algorithms
 - `input_generator.cpp`: the input generator for generating high-quality test input
-- `recyclepool.cpp ` the oracle recycling pools
-- `modules/` the driver for targeted libraries
+- `recyclepool.cpp `:  the oracle recycling pools
+- `modules/`: the driver for targeted libraries
 
 ## Instruction
 
@@ -35,7 +35,7 @@ python gen_repository.py
 
 ### STEP 2: Build the Modules
 
-To build the driver for each targeted modules, follow the steps:
+To build the driver for each targeted module, follow the steps:
 
 1. Compile the library into a static library file.
 2. Specify the required environment variables.
